@@ -20,10 +20,7 @@ jobs:
       - name: Set up Ruby
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: '3.3'
-          bundler-cache: true
-          run: |
-            bundle exec rake
+          ruby-version: '0.9.3'
       - name: Install SwiftLint
         run: |
           brew install swiftlint
