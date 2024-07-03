@@ -18,9 +18,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Set up Ruby
-        uses: actions/setup-ruby@v1
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.6'
+          ruby-version: '2.7.0'
       - name: Install SwiftLint
         run: |
           brew install swiftlint
