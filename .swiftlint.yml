@@ -1,5 +1,5 @@
 disabled_rules:
-- redundantType
+- redundant_type_annotation
 - trailing_whitespace
 - force_cast
 - fallthrough
