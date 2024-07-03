@@ -20,7 +20,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.6.10p210'
+          ruby-version: '2.6.10'
       - name: Install SwiftLint
         run: |
           brew install swiftlint
