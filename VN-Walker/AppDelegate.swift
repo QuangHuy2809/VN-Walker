@@ -10,13 +10,14 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
 
     static let shared: AppDelegate = UIApplication.shared.delegate as! AppDelegate
-    
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        print(application)
+        print(launchOptions)
         window = UIWindow(frame: UIScreen.main.bounds)
         let splashVC = SplashViewController()
         window?.rootViewController = splashVC
@@ -27,11 +28,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 extension AppDelegate {
     func loadLoginViewController() {
-        let navigationVC: UINavigationController = UINavigationController()
+        let navigationVC = UINavigationController()
         navigationVC.setNavigationBarHidden(true, animated: false)
         navigationVC.navigationBar.barStyle = .black
         window?.rootViewController = navigationVC
-        let loginVC: ViewController = ViewController.initFromStoryboard(feature: .login)
+        let loginVC: TestViewController = TestViewController.initFromStoryboard(feature: .login)
         navigationVC.pushViewController(loginVC, animated: false)
     }
 }

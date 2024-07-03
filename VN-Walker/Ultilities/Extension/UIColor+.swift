@@ -8,7 +8,7 @@
 
 import UIKit
 
-public struct HexColor {
+public enum HexColor {
     public static let hexFFFFFF = UIColor(rgb: 0xFFFFFF)
 }
 
