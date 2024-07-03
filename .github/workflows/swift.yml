@@ -27,7 +27,7 @@ jobs:
       - name: SwiftFormat
         run: swiftformat . --lint
       - name: SwiftLint
-        run: swiftlint lint --strict
+        run: swiftlint lint --strict --config .swiftlint.yml
       - name: Build and Test
         run: |
           xcodebuild \
