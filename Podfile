@@ -6,5 +6,5 @@ target 'VN-Walker' do
   use_frameworks!
 
   # Pods for VN-Walker
-
+  pod 'SwiftLint', '0.55.1'
 end

@@ -16,9 +16,13 @@
 		BF7188BE2C33AB9D00CA4942 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7188BD2C33AB9D00CA4942 /* UIColor+.swift */; };
 		BFBA0C402C33B0B400EBFB13 /* vieWalker_splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF7188B62C33A9F700CA4942 /* vieWalker_splash.mp4 */; };
 		BFBA0C422C33B26800EBFB13 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA0C412C33B26800EBFB13 /* UIViewController+.swift */; };
+		EDD5B607596E28BFCA5FFEC4 /* Pods_VN_Walker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CF6B791B30954CB88E34FF /* Pods_VN_Walker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10CF6B791B30954CB88E34FF /* Pods_VN_Walker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VN_Walker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E0DB55EBC4A43FEF5EAB3B /* Pods-VN-Walker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VN-Walker.release.xcconfig"; path = "Target Support Files/Pods-VN-Walker/Pods-VN-Walker.release.xcconfig"; sourceTree = "<group>"; };
+		96AA8F581518389A1496FD82 /* Pods-VN-Walker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VN-Walker.debug.xcconfig"; path = "Target Support Files/Pods-VN-Walker/Pods-VN-Walker.debug.xcconfig"; sourceTree = "<group>"; };
 		BF3322DD2C2EAF600020AAEA /* VN-Walker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VN-Walker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3322E02C2EAF610020AAEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF3322E42C2EAF610020AAEA /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
@@ -37,17 +41,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD5B607596E28BFCA5FFEC4 /* Pods_VN_Walker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180259069BA940D2CFD64DBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96AA8F581518389A1496FD82 /* Pods-VN-Walker.debug.xcconfig */,
+				94E0DB55EBC4A43FEF5EAB3B /* Pods-VN-Walker.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F1838BEDD7F3502D2A67D5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10CF6B791B30954CB88E34FF /* Pods_VN_Walker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF3322D42C2EAF600020AAEA = {
 			isa = PBXGroup;
 			children = (
 				BF3322DF2C2EAF610020AAEA /* VN-Walker */,
 				BF3322DE2C2EAF600020AAEA /* Products */,
+				180259069BA940D2CFD64DBD /* Pods */,
+				5F1838BEDD7F3502D2A67D5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF3322F12C2EAF630020AAEA /* Build configuration list for PBXNativeTarget "VN-Walker" */;
 			buildPhases = (
+				75D14323F17BADB049ABDC78 /* [CP] Check Pods Manifest.lock */,
 				BF3322D92C2EAF600020AAEA /* Sources */,
 				BF3322DA2C2EAF600020AAEA /* Frameworks */,
 				BF3322DB2C2EAF600020AAEA /* Resources */,
@@ -209,6 +235,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		75D14323F17BADB049ABDC78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VN-Walker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BFA45B162C350C62004F780A /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,6 +432,7 @@
 		};
 		BF3322F22C2EAF630020AAEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96AA8F581518389A1496FD82 /* Pods-VN-Walker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -418,6 +467,7 @@
 		};
 		BF3322F32C2EAF630020AAEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94E0DB55EBC4A43FEF5EAB3B /* Pods-VN-Walker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
