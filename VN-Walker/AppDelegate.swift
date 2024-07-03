@@ -33,7 +33,7 @@ extension AppDelegate {
         navigationVC.navigationBar.barStyle = .black
         window?.rootViewController = navigationVC
         // swiftlint:disable redundantType
-        let loginVC: TestViewController = TestViewController.initFromStoryboard(feature: .login)
-        navigationVC.pushViewController(loginVC, animated: false)
+//        let loginVC: TestViewController = TestViewController.initFromStoryboard(feature: .login)
+//        navigationVC.pushViewController(loginVC, animated: false)
     }
 }
