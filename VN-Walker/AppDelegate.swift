@@ -32,6 +32,7 @@ extension AppDelegate {
         navigationVC.setNavigationBarHidden(true, animated: false)
         navigationVC.navigationBar.barStyle = .black
         window?.rootViewController = navigationVC
+        // swiftlint:disable:next redundantType
         let loginVC: TestViewController = TestViewController.initFromStoryboard(feature: .login)
         navigationVC.pushViewController(loginVC, animated: false)
     }
