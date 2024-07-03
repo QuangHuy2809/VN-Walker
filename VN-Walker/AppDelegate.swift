@@ -32,7 +32,7 @@ extension AppDelegate {
         navigationVC.setNavigationBarHidden(true, animated: false)
         navigationVC.navigationBar.barStyle = .black
         window?.rootViewController = navigationVC
-        let loginVC: TestViewController = TestViewController.initFromStoryboard(feature: .login)
-        navigationVC.pushViewController(loginVC, animated: false)
+//        let loginVC: TestViewController = TestViewController.initFromStoryboard(feature: .login)
+//        navigationVC.pushViewController(loginVC, animated: false)
     }
 }
