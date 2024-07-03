@@ -1,0 +1,86 @@
+disabled_rules:
+- trailing_whitespace
+- force_cast
+- fallthrough
+- force_try
+- identifier_name
+- todo
+- switch_case_on_newline
+- weak_delegate
+- implicit_return
+- object_literal
+- class_delegate_protocol
+- valid_ibinspectable
+- closure_parameter_position
+- unneeded_notification_center_removal
+- extension_access_modifier
+- explicit_type_interface
+- implicit_getter
+- computed_accessors_order
+- unused_closure_parameter
+- operator_usage_whitespace
+- comment_spacing
+- empty_enum_arguments
+
+opt_in_rules:
+    - vertical_parameter_alignment_on_call
+    - attributes
+    - closure_end_indentation
+    - closure_spacing
+    - conditional_returns_on_newline
+    - fatal_error_message
+    - file_header
+    - first_where
+    - multiline_parameters
+    - nimble_operator
+    - number_separator
+    - overridden_super_call
+    - prohibited_super_call
+    - private_outlet
+    
+included:
+- VN-Walker
+
+excluded:
+- ExternalLibraries
+- Pods
+
+line_length: 300
+file_length: 1500
+function_parameter_count: 10
+cyclomatic_complexity: 120
+multiline_parameters: false
+
+type_body_length:
+- 520 # warning
+- 550 # error
+
+function_body_length:
+- 350 # warning
+- 350 # error
+
+type_name:
+    min_length:
+        warning: 5
+        error: 4
+    max_length:
+        warning: 45
+        error: 55
+        
+large_tuple:
+- 3 # warning
+- 4 # error
+
+nesting:
+    type_level: 3
+
+file_header:
+  required_pattern: |
+                    \/\/
+                    \/\/  .*?\.swift
+                    \/\/  VN-Walker
+                    \/\/
+                    \/\/  Created by Huy on \d{1,2}\/\d{1,2}\/\d{2}\.
+                    \/\/  Copyright © .*?\. All rights reserved\.
+                    \/\/
+
