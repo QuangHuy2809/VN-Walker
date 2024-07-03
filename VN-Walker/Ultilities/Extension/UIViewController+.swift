@@ -2,7 +2,8 @@
 //  UIViewController+.swift
 //  VN-Walker
 //
-//  Created by Quang Huy on 2/7/24.
+//  Created by Huy on 2/7/24.
+//  Copyright © Huy. All rights reserved.
 //
 
 import UIKit

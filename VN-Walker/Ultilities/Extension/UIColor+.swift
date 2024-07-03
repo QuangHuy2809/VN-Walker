@@ -12,7 +12,6 @@ public struct HexColor {
     public static let hexFFFFFF = UIColor(rgb: 0xFFFFFF)
 }
 
-
 extension UIColor {
     convenience init(rgb: UInt) {
         self.init(red: CGFloat((rgb & 0xFF0000) >> 16) / 255.0,

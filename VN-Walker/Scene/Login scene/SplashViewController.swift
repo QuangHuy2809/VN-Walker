@@ -17,7 +17,6 @@ class SplashViewController: UIViewController {
         super.viewDidLoad()
         
         self.view.backgroundColor = HexColor.hexFFFFFF
-        var r = "Huy"
         guard let path = Bundle.main.path(forResource: "vieWalker_splash", ofType: "mp4") else {
             print("Video không tìm thấy")
             return
