@@ -7,4 +7,5 @@ target 'VN-Walker' do
 
   # Pods for VN-Walker
   pod 'SwiftLint', '0.55.1'
+  pod 'VisualEffectView'
 end

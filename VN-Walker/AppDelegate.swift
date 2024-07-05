@@ -33,7 +33,7 @@ extension AppDelegate {
         navigationVC.navigationBar.barStyle = .black
         window?.rootViewController = navigationVC
         // swiftformat:disable:next --redundanttype
-        let loginVC: TestViewController = TestViewController.initFromStoryboard(feature: .login)
+        let loginVC: MyLoginFlowView = MyLoginFlowView.initFromStoryboard(feature: .login)
         navigationVC.pushViewController(loginVC, animated: false)
     }
 }

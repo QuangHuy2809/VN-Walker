@@ -29,7 +29,7 @@ public enum FeatureApp {
         case .splash:
             return "Splash"
         case .login:
-            return "Main"
+            return "MyLoginFlow"
         case .twalker:
             return "TWalker"
         }

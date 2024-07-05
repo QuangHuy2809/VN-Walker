@@ -1,16 +1,20 @@
 PODS:
   - SwiftLint (0.55.1)
+  - VisualEffectView (4.1.5)
 
 DEPENDENCIES:
   - SwiftLint (= 0.55.1)
+  - VisualEffectView
 
 SPEC REPOS:
   trunk:
     - SwiftLint
+    - VisualEffectView
 
 SPEC CHECKSUMS:
   SwiftLint: 3fe909719babe5537c552ee8181c0031392be933
+  VisualEffectView: 333acded3f79d088ae44aff57d5f3a62554e37b6
 
-PODFILE CHECKSUM: 22dc7296ceae76bdeb2fde66c8df46c39a6481bb
+PODFILE CHECKSUM: fcc755f3788d13ffc4b6aec52d26fde829cbf839
 
 COCOAPODS: 1.15.2
