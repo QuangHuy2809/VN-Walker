@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+// swift-format-ignore-file
 /// VisualEffectView is a dynamic background blur view.
 open class VisualEffectView: UIVisualEffectView {
     

@@ -24,8 +24,9 @@ public extension UIView {
                 return
             }
             // Fix React-Native conflict issue
-            guard String(describing: type(of: color)) != "__NSCFType" else { 
-                return }
+            guard String(describing: type(of: color)) != "__NSCFType" else {
+                return
+            }
             layer.borderColor = color.cgColor
         }
     }
@@ -48,13 +49,13 @@ public extension UIView {
             layer.cornerRadius = abs(CGFloat(Int(newValue * 100)) / 100)
         }
     }
-    
+
     @IBInspectable var blurEffect: Bool {
         get { return false }
         set {
             if newValue {
                 let visualEffectView = VisualEffectView()
-                visualEffectView.frame = self.bounds
+                visualEffectView.frame = bounds
                 visualEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
 
                 // Tùy chỉnh hiệu ứng mờ
@@ -64,7 +65,7 @@ public extension UIView {
                 visualEffectView.scale = 1
 
                 // Thêm visualEffectView vào view hiện tại
-                self.addSubview(visualEffectView)
+                addSubview(visualEffectView)
             }
         }
     }
