@@ -7,7 +7,7 @@
 //
 
 import SwiftUI
-// swift-format-ignore-file
+// swiftformat:disable
 @available(iOS 14, *)
 public struct VisualEffect: UIViewRepresentable {
     let colorTint: Color?
