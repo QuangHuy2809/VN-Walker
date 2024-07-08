@@ -10,6 +10,9 @@ import UIKit
 
 public enum HexColor {
     public static let hexFFFFFF = UIColor(rgb: 0xFFFFFF)
+    public static let hex000000 = UIColor(rgb: 0x000000)
+    public static let disableTextFFFFFF05 = UIColor(rgb: 0xFFFFFF).withAlphaComponent(0.5)
+    public static let enableTextFFFFFF = UIColor(rgb: 0xFFFFFF)
 }
 
 extension UIColor {

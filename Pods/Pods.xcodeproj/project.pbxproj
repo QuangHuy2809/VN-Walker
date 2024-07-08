@@ -19,49 +19,92 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		5526F2B22C8FDE374504ECA1E061C1B7 /* Pods-VN-Walker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CBF25E4687BCC72997E5A6B9EF2795 /* Pods-VN-Walker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7734D2D0A40C20B327E1DA9CF9779AF3 /* Pods-VN-Walker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF6D1C5C72AAF1134E8C9D860F5EB52 /* Pods-VN-Walker-dummy.m */; };
-		B599278AF12CC950D0B9D8E054C83296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1843902171139ED67DE03EAAC6F64DDE /* Pods-VN-Walker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46468044AE5E18507602543A0EAC44F8 /* Pods-VN-Walker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3599E7C074A0C2BB19E04233E728269C /* VisualEffectView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 716DB590C9832E93BCFCD5804D5070AE /* VisualEffectView-dummy.m */; };
+		3B4AC61A3EA683EB8753FF555FB3EE7C /* Pods-VN-Walker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 822FA0B04938373EBB9180C5733BF1AC /* Pods-VN-Walker-dummy.m */; };
+		6A337B0C0911849DEE7DC42B2256FAF0 /* VisualEffectView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3CA5B08C36A212067C243195520BAC7 /* VisualEffectView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7588824CA2B86C6517C08C73AB768EAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		967837567E72F663511530E9D26FECCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B8765D9A164CABC72D07E2A2BC9C6215 /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F473B8014673023C907548FCC8280 /* VisualEffectView.swift */; };
+		C2042516AD310DD41C0C9FD820B9CED5 /* UIViewEffectViewiOS14.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB5DB9564B9E2C8EFBD2C60CCA142D /* UIViewEffectViewiOS14.swift */; };
+		CB9C62ADFFB2BD5BDAC98505DA5863FF /* VisualEffectView_SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C52FCDB05BF619B931D46963E88FF1 /* VisualEffectView_SwiftUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3102E1F8A3462A69C292030BE8D4181A /* PBXContainerItemProxy */ = {
+		D0223B1B1141906ADEDDB2E3E362D629 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
 			remoteInfo = SwiftLint;
 		};
+		FFF78DA851F5BC1A09C687F630EC42A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29D8A5EE9737EDD9B0E0E5A37D9BBEF1;
+			remoteInfo = VisualEffectView;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1803B044F8F306EAA016A58060665348 /* Pods-VN-Walker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VN-Walker-Info.plist"; sourceTree = "<group>"; };
-		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
-		57CBF25E4687BCC72997E5A6B9EF2795 /* Pods-VN-Walker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VN-Walker-umbrella.h"; sourceTree = "<group>"; };
-		60927956E1E519D60C723E345E92BC9E /* Pods-VN-Walker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VN-Walker.release.xcconfig"; sourceTree = "<group>"; };
-		679DCAC50F8A8C332D2A18FE86808527 /* Pods-VN-Walker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VN-Walker.debug.xcconfig"; sourceTree = "<group>"; };
+		09D664F539DD95DDBDB23D7B21B24DB9 /* Pods-VN-Walker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VN-Walker.release.xcconfig"; sourceTree = "<group>"; };
+		1CC037D55FEE5F8FD0137C32A1BF8694 /* Pods-VN-Walker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VN-Walker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E73F5F3C2D27B773A5C30125AC43621 /* Pods-VN-Walker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VN-Walker.modulemap"; sourceTree = "<group>"; };
+		2C9E278D3F6FC54EBC730EC7DC242149 /* Pods-VN-Walker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VN-Walker-acknowledgements.plist"; sourceTree = "<group>"; };
+		2EF649733C07A95CCC48143DAEEF1A76 /* VisualEffectView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VisualEffectView.modulemap; sourceTree = "<group>"; };
+		2FF9FEE52E3A849A991B01547B4C2BFF /* VisualEffectView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VisualEffectView; path = VisualEffectView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46468044AE5E18507602543A0EAC44F8 /* Pods-VN-Walker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VN-Walker-umbrella.h"; sourceTree = "<group>"; };
+		612F473B8014673023C907548FCC8280 /* VisualEffectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisualEffectView.swift; path = Sources/VisualEffectView.swift; sourceTree = "<group>"; };
+		716DB590C9832E93BCFCD5804D5070AE /* VisualEffectView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VisualEffectView-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
-		845DBE922D1D94F5452F3BA5A19CF179 /* Pods-VN-Walker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VN-Walker-acknowledgements.plist"; sourceTree = "<group>"; };
-		8EF6D1C5C72AAF1134E8C9D860F5EB52 /* Pods-VN-Walker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VN-Walker-dummy.m"; sourceTree = "<group>"; };
+		7FB57098BACD4D7F0A5C118590CA6E62 /* Pods-VN-Walker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VN-Walker-frameworks.sh"; sourceTree = "<group>"; };
+		822FA0B04938373EBB9180C5733BF1AC /* Pods-VN-Walker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VN-Walker-dummy.m"; sourceTree = "<group>"; };
 		944A3329D02531A81B5081A3FF0A2090 /* Pods-VN-Walker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VN-Walker"; path = Pods_VN_Walker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BEE2001308DDB3E1B4692E9E16F469A3 /* Pods-VN-Walker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VN-Walker.modulemap"; sourceTree = "<group>"; };
-		FB218B34531696452A019C3F36E3C53D /* Pods-VN-Walker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VN-Walker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4835FA9F2009C49F71430D5C52F740E /* Pods-VN-Walker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VN-Walker-Info.plist"; sourceTree = "<group>"; };
+		ADCB5DB9564B9E2C8EFBD2C60CCA142D /* UIViewEffectViewiOS14.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewEffectViewiOS14.swift; path = Sources/UIViewEffectViewiOS14.swift; sourceTree = "<group>"; };
+		B3BCB76D560D232BE3BFDAD431CE30BF /* VisualEffectView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VisualEffectView-Info.plist"; sourceTree = "<group>"; };
+		C11F89D38F9CF261859CF670AAE8E9B4 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		C1955FCD4C2D97C7C1E520F9302CA73E /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		C6BF89147B413FE201EA7FD9128941D0 /* VisualEffectView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VisualEffectView-prefix.pch"; sourceTree = "<group>"; };
+		D0BD7FC6704E03C3BD1EB41900D60BE6 /* VisualEffectView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VisualEffectView.debug.xcconfig; sourceTree = "<group>"; };
+		D3CA5B08C36A212067C243195520BAC7 /* VisualEffectView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VisualEffectView-umbrella.h"; sourceTree = "<group>"; };
+		E5C52FCDB05BF619B931D46963E88FF1 /* VisualEffectView_SwiftUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisualEffectView_SwiftUI.swift; path = Sources/VisualEffectView_SwiftUI.swift; sourceTree = "<group>"; };
+		E6FB609DE4642CD17D8D20186F95A8EF /* Pods-VN-Walker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VN-Walker.debug.xcconfig"; sourceTree = "<group>"; };
+		F7D1213D657A981341477A1D8CB60F87 /* VisualEffectView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VisualEffectView.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9EA98600D5BDB408A274A6D0619C87BD /* Frameworks */ = {
+		0155848BBA05D2851220128DEB0B9D76 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B599278AF12CC950D0B9D8E054C83296 /* Foundation.framework in Frameworks */,
+				7588824CA2B86C6517C08C73AB768EAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		622F8A907FE8AD3352D3641B3A65AA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967837567E72F663511530E9D26FECCA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25C9B42D8E3B8595FBF0C480B38D540B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C11F89D38F9CF261859CF670AAE8E9B4 /* SwiftLint.debug.xcconfig */,
+				C1955FCD4C2D97C7C1E520F9302CA73E /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,46 +113,56 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		691287E61F2B33EE65EBB7570F4FD8C7 /* Pods-VN-Walker */ = {
+		81678D1522BA4961E8F2432BDEE6AF11 /* VisualEffectView */ = {
 			isa = PBXGroup;
 			children = (
-				BEE2001308DDB3E1B4692E9E16F469A3 /* Pods-VN-Walker.modulemap */,
-				FB218B34531696452A019C3F36E3C53D /* Pods-VN-Walker-acknowledgements.markdown */,
-				845DBE922D1D94F5452F3BA5A19CF179 /* Pods-VN-Walker-acknowledgements.plist */,
-				8EF6D1C5C72AAF1134E8C9D860F5EB52 /* Pods-VN-Walker-dummy.m */,
-				1803B044F8F306EAA016A58060665348 /* Pods-VN-Walker-Info.plist */,
-				57CBF25E4687BCC72997E5A6B9EF2795 /* Pods-VN-Walker-umbrella.h */,
-				679DCAC50F8A8C332D2A18FE86808527 /* Pods-VN-Walker.debug.xcconfig */,
-				60927956E1E519D60C723E345E92BC9E /* Pods-VN-Walker.release.xcconfig */,
+				ADCB5DB9564B9E2C8EFBD2C60CCA142D /* UIViewEffectViewiOS14.swift */,
+				612F473B8014673023C907548FCC8280 /* VisualEffectView.swift */,
+				E5C52FCDB05BF619B931D46963E88FF1 /* VisualEffectView_SwiftUI.swift */,
+				8E13CC43A814212AF20717467D3EBAEC /* Support Files */,
+			);
+			name = VisualEffectView;
+			path = VisualEffectView;
+			sourceTree = "<group>";
+		};
+		8E13CC43A814212AF20717467D3EBAEC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EF649733C07A95CCC48143DAEEF1A76 /* VisualEffectView.modulemap */,
+				716DB590C9832E93BCFCD5804D5070AE /* VisualEffectView-dummy.m */,
+				B3BCB76D560D232BE3BFDAD431CE30BF /* VisualEffectView-Info.plist */,
+				C6BF89147B413FE201EA7FD9128941D0 /* VisualEffectView-prefix.pch */,
+				D3CA5B08C36A212067C243195520BAC7 /* VisualEffectView-umbrella.h */,
+				D0BD7FC6704E03C3BD1EB41900D60BE6 /* VisualEffectView.debug.xcconfig */,
+				F7D1213D657A981341477A1D8CB60F87 /* VisualEffectView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VisualEffectView";
+			sourceTree = "<group>";
+		};
+		BC11C8B2B4A40504AC5AB519C314CEBE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7D9001C07B65DA09017BA3C18F48872 /* Pods-VN-Walker */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C7D9001C07B65DA09017BA3C18F48872 /* Pods-VN-Walker */ = {
+			isa = PBXGroup;
+			children = (
+				1E73F5F3C2D27B773A5C30125AC43621 /* Pods-VN-Walker.modulemap */,
+				1CC037D55FEE5F8FD0137C32A1BF8694 /* Pods-VN-Walker-acknowledgements.markdown */,
+				2C9E278D3F6FC54EBC730EC7DC242149 /* Pods-VN-Walker-acknowledgements.plist */,
+				822FA0B04938373EBB9180C5733BF1AC /* Pods-VN-Walker-dummy.m */,
+				7FB57098BACD4D7F0A5C118590CA6E62 /* Pods-VN-Walker-frameworks.sh */,
+				A4835FA9F2009C49F71430D5C52F740E /* Pods-VN-Walker-Info.plist */,
+				46468044AE5E18507602543A0EAC44F8 /* Pods-VN-Walker-umbrella.h */,
+				E6FB609DE4642CD17D8D20186F95A8EF /* Pods-VN-Walker.debug.xcconfig */,
+				09D664F539DD95DDBDB23D7B21B24DB9 /* Pods-VN-Walker.release.xcconfig */,
 			);
 			name = "Pods-VN-Walker";
 			path = "Target Support Files/Pods-VN-Walker";
-			sourceTree = "<group>";
-		};
-		7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */,
-				7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftLint";
-			sourceTree = "<group>";
-		};
-		8D82E8B1059F962586D67F8F7C037164 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				944A3329D02531A81B5081A3FF0A2090 /* Pods-VN-Walker */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D96179D43A67C5D5323B0682D32C133C /* SwiftLint */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -117,9 +170,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				965877409E01FB3D85D85E90E6B30185 /* Pods */,
-				8D82E8B1059F962586D67F8F7C037164 /* Products */,
-				F8ED9315A585460F864F35A5671E5AE8 /* Targets Support Files */,
+				EA94FE527056F0E5D2E67D930C4055B5 /* Pods */,
+				D8647C378858BE19C37208C9623C3286 /* Products */,
+				BC11C8B2B4A40504AC5AB519C314CEBE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,50 +184,87 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D96179D43A67C5D5323B0682D32C133C /* SwiftLint */ = {
+		D8647C378858BE19C37208C9623C3286 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
+				944A3329D02531A81B5081A3FF0A2090 /* Pods-VN-Walker */,
+				2FF9FEE52E3A849A991B01547B4C2BFF /* VisualEffectView */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA94FE527056F0E5D2E67D930C4055B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAC41867A5491F3B4E216AC743CE2C9F /* SwiftLint */,
+				81678D1522BA4961E8F2432BDEE6AF11 /* VisualEffectView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAC41867A5491F3B4E216AC743CE2C9F /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				25C9B42D8E3B8595FBF0C480B38D540B /* Support Files */,
 			);
 			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
-		F8ED9315A585460F864F35A5671E5AE8 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				691287E61F2B33EE65EBB7570F4FD8C7 /* Pods-VN-Walker */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3625BFEB49CB59F255F8A19616659D8F /* Headers */ = {
+		05D08E5215EDE426298759E5117D8E3C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5526F2B22C8FDE374504ECA1E061C1B7 /* Pods-VN-Walker-umbrella.h in Headers */,
+				1843902171139ED67DE03EAAC6F64DDE /* Pods-VN-Walker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F2791092497C74C877B10A1BB86E980 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A337B0C0911849DEE7DC42B2256FAF0 /* VisualEffectView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F6414D6B3161FA9C794B96FB2F2F592C /* Pods-VN-Walker */ = {
+		29D8A5EE9737EDD9B0E0E5A37D9BBEF1 /* VisualEffectView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E24EA45E55EFFE39E61FEB9BC1813AC3 /* Build configuration list for PBXNativeTarget "Pods-VN-Walker" */;
+			buildConfigurationList = 44D6D1A13C71213897C299B7EEEA4972 /* Build configuration list for PBXNativeTarget "VisualEffectView" */;
 			buildPhases = (
-				3625BFEB49CB59F255F8A19616659D8F /* Headers */,
-				A536830A49C3DADA2CBEE1957AD2EB97 /* Sources */,
-				9EA98600D5BDB408A274A6D0619C87BD /* Frameworks */,
-				30F094374BD31CA3402BDFA37458911B /* Resources */,
+				7F2791092497C74C877B10A1BB86E980 /* Headers */,
+				45E58DC2EA3C2086943B0200E712BBDE /* Sources */,
+				622F8A907FE8AD3352D3641B3A65AA6D /* Frameworks */,
+				C1E8734E0DBE0E1B12391B4AAB6D1C23 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BE49551715FC66814D65F84B0949913A /* PBXTargetDependency */,
+			);
+			name = VisualEffectView;
+			productName = VisualEffectView;
+			productReference = 2FF9FEE52E3A849A991B01547B4C2BFF /* VisualEffectView */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6414D6B3161FA9C794B96FB2F2F592C /* Pods-VN-Walker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E195587EA434F0895019DCBFB6916E /* Build configuration list for PBXNativeTarget "Pods-VN-Walker" */;
+			buildPhases = (
+				05D08E5215EDE426298759E5117D8E3C /* Headers */,
+				E88F00CC484D9D7C6A3FDF7C09DA185F /* Sources */,
+				0155848BBA05D2851220128DEB0B9D76 /* Frameworks */,
+				976056077FC0A77B7CD132649EC7FC9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FC5D294DE0CB93AB94F55C58A97EB30 /* PBXTargetDependency */,
+				2E407BD129C37B61B3F4B65644727817 /* PBXTargetDependency */,
 			);
 			name = "Pods-VN-Walker";
 			productName = Pods_VN_Walker;
@@ -199,18 +289,26 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 8D82E8B1059F962586D67F8F7C037164 /* Products */;
+			productRefGroup = D8647C378858BE19C37208C9623C3286 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F6414D6B3161FA9C794B96FB2F2F592C /* Pods-VN-Walker */,
 				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+				29D8A5EE9737EDD9B0E0E5A37D9BBEF1 /* VisualEffectView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		30F094374BD31CA3402BDFA37458911B /* Resources */ = {
+		976056077FC0A77B7CD132649EC7FC9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E8734E0DBE0E1B12391B4AAB6D1C23 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -220,47 +318,84 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A536830A49C3DADA2CBEE1957AD2EB97 /* Sources */ = {
+		45E58DC2EA3C2086943B0200E712BBDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7734D2D0A40C20B327E1DA9CF9779AF3 /* Pods-VN-Walker-dummy.m in Sources */,
+				C2042516AD310DD41C0C9FD820B9CED5 /* UIViewEffectViewiOS14.swift in Sources */,
+				B8765D9A164CABC72D07E2A2BC9C6215 /* VisualEffectView.swift in Sources */,
+				3599E7C074A0C2BB19E04233E728269C /* VisualEffectView-dummy.m in Sources */,
+				CB9C62ADFFB2BD5BDAC98505DA5863FF /* VisualEffectView_SwiftUI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E88F00CC484D9D7C6A3FDF7C09DA185F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4AC61A3EA683EB8753FF555FB3EE7C /* Pods-VN-Walker-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BE49551715FC66814D65F84B0949913A /* PBXTargetDependency */ = {
+		2E407BD129C37B61B3F4B65644727817 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VisualEffectView;
+			target = 29D8A5EE9737EDD9B0E0E5A37D9BBEF1 /* VisualEffectView */;
+			targetProxy = FFF78DA851F5BC1A09C687F630EC42A0 /* PBXContainerItemProxy */;
+		};
+		4FC5D294DE0CB93AB94F55C58A97EB30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftLint;
 			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
-			targetProxy = 3102E1F8A3462A69C292030BE8D4181A /* PBXContainerItemProxy */;
+			targetProxy = D0223B1B1141906ADEDDB2E3E362D629 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		26EA5A9600226D2B7D8D25152A304F3B /* Release */ = {
+		0D504A113970476BBE8EAE223BDC3FA3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */;
+			baseConfigurationReference = 09D664F539DD95DDBDB23D7B21B24DB9 /* Pods-VN-Walker.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VN-Walker/Pods-VN-Walker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VN-Walker/Pods-VN-Walker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		3B591F8E3581436144E69AC647C36FA5 /* Debug */ = {
+		1D734BC9762314B173ECE03EDA3B8D0F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 679DCAC50F8A8C332D2A18FE86808527 /* Pods-VN-Walker.debug.xcconfig */;
+			baseConfigurationReference = E6FB609DE4642CD17D8D20186F95A8EF /* Pods-VN-Walker.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -295,12 +430,28 @@
 			};
 			name = Debug;
 		};
-		4AC1580501502B8A2897173329C74982 /* Release */ = {
+		26EA5A9600226D2B7D8D25152A304F3B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60927956E1E519D60C723E345E92BC9E /* Pods-VN-Walker.release.xcconfig */;
+			baseConfigurationReference = C1955FCD4C2D97C7C1E520F9302CA73E /* SwiftLint.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5500A00F94AD4DCE9DF20E585B63DED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7D1213D657A981341477A1D8CB60F87 /* VisualEffectView.release.xcconfig */;
+			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -309,23 +460,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VN-Walker/Pods-VN-Walker-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/VisualEffectView/VisualEffectView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VisualEffectView/VisualEffectView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VN-Walker/Pods-VN-Walker.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/VisualEffectView/VisualEffectView.modulemap";
+				PRODUCT_MODULE_NAME = VisualEffectView;
+				PRODUCT_NAME = VisualEffectView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -463,7 +613,7 @@
 		};
 		E9E1A48A750B946DE9877594C6E735E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */;
+			baseConfigurationReference = C11F89D38F9CF261859CF670AAE8E9B4 /* SwiftLint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -478,9 +628,52 @@
 			};
 			name = Debug;
 		};
+		EC92A841995636126CBDC6CF2F64EEC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0BD7FC6704E03C3BD1EB41900D60BE6 /* VisualEffectView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VisualEffectView/VisualEffectView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VisualEffectView/VisualEffectView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VisualEffectView/VisualEffectView.modulemap";
+				PRODUCT_MODULE_NAME = VisualEffectView;
+				PRODUCT_NAME = VisualEffectView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		44D6D1A13C71213897C299B7EEEA4972 /* Build configuration list for PBXNativeTarget "VisualEffectView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC92A841995636126CBDC6CF2F64EEC7 /* Debug */,
+				5500A00F94AD4DCE9DF20E585B63DED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -499,11 +692,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E24EA45E55EFFE39E61FEB9BC1813AC3 /* Build configuration list for PBXNativeTarget "Pods-VN-Walker" */ = {
+		C0E195587EA434F0895019DCBFB6916E /* Build configuration list for PBXNativeTarget "Pods-VN-Walker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B591F8E3581436144E69AC647C36FA5 /* Debug */,
-				4AC1580501502B8A2897173329C74982 /* Release */,
+				1D734BC9762314B173ECE03EDA3B8D0F /* Debug */,
+				0D504A113970476BBE8EAE223BDC3FA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
