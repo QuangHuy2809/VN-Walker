@@ -9,22 +9,20 @@
 import Foundation
 
 class MyLoginFlowInteractor {
+    
     // MARK: - VIPER Stack
     weak var presenter: MyLoginFlowInteractorToPresenterInterface!
 
     // MARK: - Instance Variables
 
     // MARK: - Operational
-
 }
 
 // MARK: - Presenter To Interactor Interface
 extension MyLoginFlowInteractor: MyLoginFlowPresenterToInteractorInterface {
-
 }
 
 // MARK: - Communication Interfaces
 // VIPER Interface for communication from Interactor -> Presenter
 protocol MyLoginFlowInteractorToPresenterInterface: AnyObject {
-
 }
