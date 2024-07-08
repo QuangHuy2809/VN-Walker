@@ -4,9 +4,9 @@
 //
 //  Created by Lasha Efremidze on 9/14/20.
 //
-
+// swift-format-ignore-file
 import UIKit
-// swiftformat:disable
+
 @available(iOS 14, *)
 extension UIVisualEffectView {
     var ios14_blurRadius: CGFloat {

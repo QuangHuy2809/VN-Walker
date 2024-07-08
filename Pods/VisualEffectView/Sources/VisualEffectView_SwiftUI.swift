@@ -5,9 +5,9 @@
 //  Created by 朱浩宇 on 2023/5/10.
 //  Copyright © 2023 Lasha Efremidze. All rights reserved.
 //
-
+// swift-format-ignore-file
 import SwiftUI
-// swiftformat:disable
+
 @available(iOS 14, *)
 public struct VisualEffect: UIViewRepresentable {
     let colorTint: Color?

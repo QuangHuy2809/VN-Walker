@@ -5,9 +5,9 @@
 //  Created by Lasha Efremidze on 5/26/16.
 //  Copyright © 2016 Lasha Efremidze. All rights reserved.
 //
-
+// swift-format-ignore-file
 import UIKit
-// swiftformat:disable
+
 /// VisualEffectView is a dynamic background blur view.
 open class VisualEffectView: UIVisualEffectView {
     
